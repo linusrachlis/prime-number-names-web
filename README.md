@@ -1,5 +1,18 @@
 # Is your name a prime number?
 
+A web application to tell you whether your name is a prime number.
+
+## TODO
+
+- Improve mobile experience
+- Don't show result for empty input
+
+## License
+
+Original code is released under GPLv3. See "LICENSE" file.
+
+# Technical
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.7.
 
 ## Development server
