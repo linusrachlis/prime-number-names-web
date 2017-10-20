@@ -5,6 +5,7 @@ A web application to tell you whether your name is a prime number.
 ## TODO
 
 - Improve mobile experience
+- Implement deep link to prefill name
 - Don't show result for empty input
 
 ## License
