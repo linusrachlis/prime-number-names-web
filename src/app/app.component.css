@@ -1,0 +1,31 @@
+h1 { font-size: 40px; }
+
+form { margin: 1em 0; }
+
+form input { font-size: inherit; }
+
+table {
+  margin: 1em 0;
+  border-collapse: collapse;
+}
+
+table td {
+  text-align: center;
+  padding: .5em;
+  border: 1px solid black;
+}
+
+.total {
+  color: white;
+  font-weight: bold;
+  background-color: #469;
+  padding: .5em;
+  border-radius: .25em;
+}
+.total.prime { background-color: #2a2; }
+
+.result {
+  font-weight: bold;
+  color: #469;
+}
+.result.prime { color: #2a2; }
