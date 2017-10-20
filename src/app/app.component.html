@@ -7,12 +7,6 @@
   </label>
 </form>
 
-<p>
-  Total:
-  <span [ngClass]="{prime: prime, total: true}">{{total}}</span>
-  <span [ngClass]="{prime: prime, result: true}">{{prime ? "Prime!" : "Divides by " + divisor}}</span>
-</p>
-
 <table>
   <tr>
     <td *ngFor="let letter of letters">{{letter.letter}}</td>
@@ -21,3 +15,9 @@
     <td *ngFor="let letter of letters">{{letter.value}}</td>
   </tr>
 </table>
+
+<p>
+  Total:
+  <span [ngClass]="{prime: prime, total: true}">{{total}}</span>
+  <span [ngClass]="{prime: prime, result: true}">{{prime ? "Prime!" : "Divides by " + divisor}}</span>
+</p>

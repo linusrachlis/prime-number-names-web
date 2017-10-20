@@ -19,7 +19,7 @@ table td {
   color: white;
   font-weight: bold;
   background-color: #469;
-  padding: .5em;
+  padding: .4em .5em;
   border-radius: .25em;
 }
 .total.prime { background-color: #2a2; }
