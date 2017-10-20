@@ -1,5 +1,10 @@
 h1 { font-size: 40px; }
 
+.colophon {
+  font-size: 16px;
+  font-weight: normal;
+}
+
 form { margin: 1em 0; }
 
 form input { font-size: inherit; }
